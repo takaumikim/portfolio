@@ -24,6 +24,7 @@ body {
   line-height: 74px;
   padding-left: 100px;
   font-weight: 100;
+  box-sizing: border-box;
 }
 
 
@@ -301,8 +302,6 @@ main {
     width: 100%;
   }
 
-
-
   .containers {
     padding: 0 15px;
   }
@@ -348,5 +347,12 @@ main {
     margin-bottom: 100px;
   }
   
+
+}
+
+@media (max-width: 420px) {
+  .main-logo {
+    padding-top: 0;
+  }
 
 }
