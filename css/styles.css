@@ -370,4 +370,9 @@ main {
     width: 100%;
   }
 
+  .main-logo {
+    padding: 0;
+    text-align: center;
+  }
+
 }
